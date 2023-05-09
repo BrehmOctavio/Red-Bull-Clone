@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  height: auto;
+  width: 1519px;
+  margin: auto;
+  padding: 0;
+}
+.body .div-background {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url("../assets/Images/autos-locos.jpg");
+  background-size: cover;
+}
+.body .div-background .header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 1519px;
+  margin: auto;
+  justify-content: space-between;
+  position: fixed;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 5;
+  transition: all 1s;
+}
+.body .div-background .header .div-menu-logo {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  justify-content: flex-start;
+}
+.body .div-background .header .div-menu-logo .menu {
+  height: 2.1rem;
+  width: auto;
+  filter: invert(1);
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  padding: 0.4rem;
+  border-radius: 100%;
+  border: 1px solid rgb(95, 95, 95);
+}
+.body .div-background .header .div-menu-logo .menu:hover {
+  cursor: pointer;
+}
+.body .div-background .header .div-menu-logo .logo {
+  height: 3rem;
+  width: auto;
+  margin: 1.3rem;
+}
+.body .div-background .header .div-menu-logo .logo:hover {
+  cursor: pointer;
+}
+.body .div-background .header .nav {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2rem;
+  width: auto;
+  justify-content: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 30px;
+  padding-right: 2rem;
+  border: 1px solid rgb(95, 95, 95);
+}
+.body .div-background .header .nav .ul {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.body .div-background .header .nav .ul .li {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  margin: 1.3rem;
+  font-weight: bolder;
+}
+.body .div-background .header .nav .ul .li:hover {
+  cursor: pointer;
+}
+.body .div-background .header .div-profile-search {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.body .div-background .header .div-profile-search .profile {
+  height: 1.3rem;
+  width: auto;
+  filter: invert(1);
+  margin: 1.5rem;
+}
+.body .div-background .header .div-profile-search .profile:hover {
+  cursor: pointer;
+}
+.body .div-background .header .div-profile-search .search {
+  height: 1.3rem;
+  width: auto;
+  filter: invert(1);
+}
+.body .div-background .header .div-profile-search .search:hover {
+  cursor: pointer;
+}
+.body .div-background .section-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.body .div-background .section-1 .article-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  justify-content: flex-start;
+}
+.body .div-background .section-1 .article-1 .div-info {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3rem;
+  transform: translateY(6rem);
+}
+.body .div-background .section-1 .article-1 .div-info .kind {
+  width: 100%;
+  font-weight: bolder;
+  text-align: start;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.body .div-background .section-1 .article-1 .div-info .info-title {
+  width: 80%;
+  text-align: start;
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+.body .div-background .section-1 .article-1 .div-info .subtitle {
+  height: 1rem;
+  width: 100%;
+  font-weight: bolder;
+  text-align: start;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.body .div-background .section-1 .article-1 .div-info .btn-info {
+  height: 3rem;
+  width: 11rem;
+  border-radius: 35px;
+  border: none;
+  background-color: rgb(195, 9, 59);
+  font-weight: bolder;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0.5rem;
+}
+.body .div-background .section-1 .article-1 .div-info .btn-info:hover {
+  cursor: pointer;
+}
+.body .div-background .section-1 .article-2 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.body .div-background .section-1 .article-2 .div-item {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 200px;
+  width: 150px;
+  margin-right: 2rem;
+}
+.body .div-background .section-1 .article-2 .div-item .div-line {
+  width: 100%;
+  height: 2px;
+}
+.body .div-background .section-1 .article-2 .div-item .div-line .line-1, .body .div-background .section-1 .article-2 .div-item .div-line .line-2, .body .div-background .section-1 .article-2 .div-item .div-line .line-3, .body .div-background .section-1 .article-2 .div-item .div-line .line-4, .body .div-background .section-1 .article-2 .div-item .div-line .line-5 {
+  height: 100%;
+  width: 0;
+  background-color: rgb(149, 46, 46);
+  transition: all 5s;
+}
+.body .div-background .section-1 .article-2 .div-item .text-1, .body .div-background .section-1 .article-2 .div-item .text-2, .body .div-background .section-1 .article-2 .div-item .text-3, .body .div-background .section-1 .article-2 .div-item .text-4, .body .div-background .section-1 .article-2 .div-item .text-5 {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+.body .section-2 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
+}
+.body .section-2 .article-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.body .section-2 .article-1 .title {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: start;
+}
+.body .section-2 .article-1 .div-cards {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.body .section-2 .article-1 .div-cards .card {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 580px;
+  width: 430px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 5px 0px rgb(222, 222, 222);
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: all 0.2s;
+}
+.body .section-2 .article-1 .div-cards .card:hover {
+  cursor: pointer;
+  transform: translateY(-1rem);
+}
+.body .section-2 .article-1 .div-cards .card .img-card {
+  height: 25rem;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.body .section-2 .article-1 .div-cards .card .title {
+  font-size: 1.4rem;
+  font-size: bolder;
+  width: 100%;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body .section-2 .article-1 .div-cards .card .subtitle {
+  color: rgb(153, 153, 153);
+  font-size: 1rem;
+  width: 100%;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+}
+.body .section-2 .article-1 .div-cards .card .kind {
+  font-weight: bolder;
+  color: rgb(153, 153, 153);
+  font-size: 0.7rem;
+  width: 100%;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body .footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: rgb(0, 22, 43);
+  padding: 1rem;
+}
+.body .footer .info-footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  align-items: flex-start;
+}
+.body .footer .info-footer .div-info {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3rem;
+}
+.body .footer .info-footer .div-info .nav {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .footer .info-footer .div-info .nav .ul {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .footer .info-footer .div-info .nav .ul .li {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  margin: 0.4rem;
+}
+.body .footer .copyright {
+  font-size: 1rem;
+  color: rgb(149, 149, 149);
+  list-style: none;
+  font-weight: bolder;
+}/*# sourceMappingURL=index.css.map */
